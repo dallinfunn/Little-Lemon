@@ -166,5 +166,5 @@ REST_FRAMEWORK = {
 }
 
 DJOSER = {
-    'USER_ID_FIELD' : 'admindjango'  
+    'USER_ID_FIELD' : 'username'  
 }
