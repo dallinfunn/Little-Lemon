@@ -155,10 +155,10 @@ REST_FRAMEWORK = {
    #     'rest_framework.authentication.TokenAuthentication',
    #     "rest_framework.authentication.SessionAuthentication",
     #],
-    "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
-        "rest_framework.permissions.DjangoModelPermissions",
-    ],
+    #"DEFAULT_PERMISSION_CLASSES": [
+    #    "rest_framework.permissions.IsAuthenticated",
+    #    "rest_framework.permissions.DjangoModelPermissions",
+   # ],
     'DEFAULT_THROTTLE_RATES': {
         'anon': '80/minute',
         'user': '160/minute',
