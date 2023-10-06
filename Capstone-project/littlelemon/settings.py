@@ -151,14 +151,14 @@ REST_FRAMEWORK = {
         'rest_framework.throttling.AnonRateThrottle',
         'rest_framework.throttling.UserRateThrottle',
     ],
-    #'DEFAULT_AUTHENTICATION_CLASSES':[
-   #     'rest_framework.authentication.TokenAuthentication',
-   #     "rest_framework.authentication.SessionAuthentication",
-    #],
-    #"DEFAULT_PERMISSION_CLASSES": [
-    #    "rest_framework.permissions.IsAuthenticated",
-    #    "rest_framework.permissions.DjangoModelPermissions",
-   # ],
+    'DEFAULT_AUTHENTICATION_CLASSES':[
+        'rest_framework.authentication.TokenAuthentication',
+        "rest_framework.authentication.SessionAuthentication",
+    ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+        "rest_framework.permissions.DjangoModelPermissions",
+    ],
     'DEFAULT_THROTTLE_RATES': {
         'anon': '80/minute',
         'user': '160/minute',
@@ -166,5 +166,5 @@ REST_FRAMEWORK = {
 }
 
 DJOSER = {
-    'USER_ID_FIELD' : 'username'
+    'USER_ID_FIELD' : 'admindjango'  
 }
